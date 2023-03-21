@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PetsCare</string>
+    <string name="title_pets">My Pets</string>
+    <string name="title_home">Reminders</string>
+    <string name="title_todo">To Do List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

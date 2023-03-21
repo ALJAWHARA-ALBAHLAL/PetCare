@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pets_nav"
+        android:icon="@drawable/pets_nav"
+        android:title="@string/title_pets"/>
+
+    <item
+        android:id="@+id/home_nav"
+        android:icon="@drawable/home_nav"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/todo_nav"
+        android:icon="@drawable/todo_nav"
+        android:title="@string/title_todo"/>
+
+</menu>

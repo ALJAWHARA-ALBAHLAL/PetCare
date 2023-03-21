@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:padding="4dp"
+    android:scrollbarSize="4dp">
+
+    <Button
+        android:id="@+id/todolist_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0"
+        android:onClick="EditTask"
+        android:padding="2dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/todolist_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0"
+        android:onClick="DeleteTask"
+        android:padding="2dp"
+        android:text="Delete"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/todolist_Title"
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0"
+        android:padding="5dp"
+        android:text="Task"
+        android:textSize="24sp" />
+</LinearLayout>
